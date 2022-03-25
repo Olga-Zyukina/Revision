@@ -892,22 +892,22 @@ section {
   transition: all ease-in-out 0.3s;
 }
 .services .icon-box-bg-1:hover {
-  background-image: url(/assets/img/services/service-1.jpg);
+  background-image: url(/Revision/assets/img/services/service-1.jpg);
   }
 .services .icon-box-bg-2:hover {
-  background-image: url(/assets/img/services/service-2.jpg);
+  background-image: url(/Revision/assets/img/services/service-2.jpg);
   }
 .services .icon-box-bg-3:hover {
-  background-image: url(/assets/img/services/service-3.jpg);
+  background-image: url(/Revision/assets/img/services/service-3.jpg);
   }
 .services .icon-box-bg-4:hover {
-  background-image: url(/assets/img/services/service-4.jpg);
+  background-image: url(/Revision/assets/img/services/service-4.jpg);
   }
 .services .icon-box-bg-5:hover {
-  background-image: url(/assets/img/services/service-5.jpg);
+  background-image: url(/Revision/assets/img/services/service-5.jpg);
   }
 .services .icon-box-bg-6:hover {
-  background-image: url(/assets/img/services/service-6.jpg);
+  background-image: url(/Revision/assets/img/services/service-6.jpg);
  }
 .services .icon-box .icon {
   margin: 0 auto;
