@@ -20,18 +20,15 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
 const
 MAX_FILE_SIZE = 524288, // максимальный размер файла 512Кбайт (512*1024=524288)
 MAIL_FROM = 'bloger_80@mail.ru', // от какого email будет отправляться письмо
-MAIL_FROM_NAME = 'Имя_сайта', // от какого имени будет отправляться письмо
-MAIL_SUBJECT = 'RevisionStudio.ru', // тема письма
+MAIL_FROM_NAME = 'RevisionStudio.ru', // от какого имени будет отправляться письмо
+MAIL_SUBJECT = 'Сообщение с сайта RevisionStudio.ru', // тема письма
 MAIL_ADDRESS = 'spiridonova_o@mail.ru', // кому необходимо отправить письмо
 MAIL_SUBJECT_CLIENT = 'Ваше сообщение доставлено', // настройки mail для информирования пользователя о доставке сообщения
 IS_SENDING_MAIL_VIA_SMTP = false, // выполнять отправку писем через SMTP
 
+
 // стартовый путь
 $startPath = 'http' . (isset($_SERVER['HTTPS']) ? 's' : '') . '://' . $_SERVER['HTTP_HOST'] . '/';
-// директория для хранения загруженных файлов
-$uploadPath = dirname(dirname(__FILE__)) . '/uploads/';
-// разрешённые расширения файлов
-$allowedExtensions = array('gif', 'jpg', 'png');
 
 // PHPMailer
 use PHPMailer\PHPMailer\PHPMailer;

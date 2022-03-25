@@ -1,9 +1,3 @@
-/**
-* Template Name: Multi - v4.7.0
-* Template URL: https://bootstrapmade.com/multi-responsive-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -77,25 +71,7 @@
       behavior: 'smooth'
     })
   }
-
-  /**
-   * Toggle .header-scrolled class to #header when page is scrolled
-  
-  *let selectHeader = select('#header')
-  *if (selectHeader) {
-   * const headerScrolled = () => {
-  *    if (window.scrollY > 100) {
-  *      selectHeader.classList.add('header-scrolled')
-   *   } else {
-   *     selectHeader.classList.remove('header-scrolled')
-  *    }
-   * }
-  *  window.addEventListener('load', headerScrolled)
-  *  onscroll(document, headerScrolled)
-  *}
-  */
-
-    /**
+   /**
    * Header fixed top on scroll
    */
      let selectHeader = select('#header')

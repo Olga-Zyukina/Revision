@@ -19,9 +19,6 @@
                     Пользователь <b>%email.nameuser%</b> оставил следующее сообщение:<br>
                     %email.message%
                     <hr>
-                    Файлы:<br>
-                    %email.attachments%
-                    <hr>
                     Email пользователя: <b>%email.emailuser%</b><br>
                     Дата отправки: <b>%email.date%</b>
                     
